@@ -155,6 +155,7 @@ header {
 
 .h1 {
     text-align: center;
+    padding-top: 80px;
 }
 
 .aligncenter {
@@ -313,6 +314,13 @@ h5 {
 .photo-gallery {
     height: 300px;
     margin-left: 20px;
+    border-radius: 10px;
+    border: 6px solid black;
+    margin-top: 5px;
+}
+
+.list-elment {
+    margin-left: 16.5%;
 }
 
 .list {
