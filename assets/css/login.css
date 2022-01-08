@@ -165,9 +165,9 @@ h2 {
 footer {
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 100px;
     clear: both;
-    background: linear-gradient(45deg, rgb(215, 218, 221) 15%, rgb(172, 164, 175), rgb(175, 188, 187))
+    background: linear-gradient(45deg, rgb(235, 231, 231) 15%, rgb(226, 221, 228), rgb(219, 235, 233))
 }
 
 .content_left {
@@ -230,17 +230,6 @@ footer {
     }
 }
 
-.hr {
-    margin: 5px 9% 0 100px;
-    border: 1px solid black;
-}
-
-@media screen and (max-width: 768px) {
-    .hr {
-        margin-left: 10%;
-    }
-}
-
 .logo-footer {
     height: 80px;
 }
@@ -270,7 +259,7 @@ footer {
 .icon {
     float: right;
     margin-right: 160px;
-    margin-top: 5px;
+    margin-top: 40px;
     height: 110px;
     width: 40px;
 }
@@ -347,4 +336,24 @@ h4 {
     .section {
         height: 700px;
     }
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, rgb(27, 62, 99) 15%, rgb(57, 125, 156), rgb(68, 80, 112))
+}
+
+#exampleInputEmail1 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+#exampleInputPassword1 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
 }

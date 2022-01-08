@@ -108,14 +108,15 @@ header {
 
 .nav-item2 {
     height: 90px;
-    width: 95%;
-    border: solid black 1px;
+    width: 100%;
+    border: solid black 2px;
+    border-radius: 10px;
     margin-top: 18%;
 }
 
-.h1 {
-    margin-left: 40%;
-    padding-top: 80px;
+h1 {
+    margin-left: 45%;
+    margin-top: 200px;
 }
 
 .aligncenter {
@@ -127,7 +128,7 @@ footer {
     color: black;
     margin-top: 50px;
     clear: both;
-    background: linear-gradient(45deg, rgb(215, 218, 221) 15%, rgb(172, 164, 175), rgb(175, 188, 187))
+    background: linear-gradient(45deg, rgb(235, 231, 231) 15%, rgb(226, 221, 228), rgb(219, 235, 233))
 }
 
 .content_left {
@@ -190,17 +191,6 @@ footer {
     }
 }
 
-.hr {
-    margin: 5px 9% 0 100px;
-    border: 1px solid black;
-}
-
-@media screen and (max-width: 768px) {
-    .hr {
-        margin-left: 10%;
-    }
-}
-
 .logo-footer {
     height: 80px;
 }
@@ -230,7 +220,7 @@ footer {
 .icon {
     float: right;
     margin-right: 160px;
-    margin-top: 5px;
+    margin-top: 40px;
     height: 110px;
     width: 40px;
 }
@@ -238,18 +228,15 @@ footer {
 section {
     width: 70%;
     float: left;
+    margin-top: 100px;
 }
 
 aside {
-    width: 30%;
+    width: 15%;
     height: 1000px;
     float: left;
-}
-
-.nav-item2 {
-    height: 90px;
-    width: 95%;
-    border: solid black 1px;
+    margin-top: 200px;
+    margin-left: 7%;
 }
 
 .thumb-nail {
@@ -292,12 +279,12 @@ h1 {
 }
 
 .div6 {
-    width: 100%;
+    width: 1340px;
     float: left;
 }
 
 .div7 {
-    width: 100%;
+    width: 1340px;
     float: left;
 }
 
@@ -338,4 +325,8 @@ h5 {
     #txtCalligraphy {
         width: 185px;
     }
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, rgb(27, 62, 99) 15%, rgb(57, 125, 156), rgb(68, 80, 112))
 }

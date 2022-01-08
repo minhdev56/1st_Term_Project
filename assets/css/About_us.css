@@ -150,8 +150,8 @@ header {
 }
 
 .h1 {
-    margin-left: 40%;
     padding-top: 100px;
+    text-align: center;
 }
 
 .aligncenter {
@@ -163,7 +163,7 @@ footer {
     color: black;
     margin-top: 50px;
     clear: both;
-    background: linear-gradient(45deg, rgb(215, 218, 221) 15%, rgb(172, 164, 175), rgb(175, 188, 187))
+    background: linear-gradient(45deg, rgb(235, 231, 231) 15%, rgb(226, 221, 228), rgb(219, 235, 233))
 }
 
 .content_left {
@@ -266,7 +266,7 @@ footer {
 .icon {
     float: right;
     margin-right: 160px;
-    margin-top: 5px;
+    margin-top: 40px;
     height: 110px;
     width: 40px;
 }
@@ -305,7 +305,7 @@ h4 {
 
 h5 {
     margin: 60px 0 60px;
-    padding-top: 250px;
+    padding-top: 430px;
 }
 
 .avatar {
@@ -337,6 +337,7 @@ h5 {
     width: 32px;
     margin: 50px auto;
     perspective: 1000px;
+    padding-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
