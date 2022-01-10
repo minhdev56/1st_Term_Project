@@ -1,16 +1,9 @@
-const loadmore = document.querySelector('#loadmore');
-let currentItems = 2;
-loadmore.addEventListener('click', (e) => {
-    const elementList = [...document.querySelectorAll('.list .list-element')];
-    for (let i = currentItems; i < currentItems + 2; i++) {
-        if (elementList[i]) {
-            elementList[i].style.display = 'block';
+$(document).ready(function() {
+    $(".list-element").slice(0, 3).show()
+    $("#loadmore").on("click", function() {
+        $(".list-element:hidden").slice(0, 3).slideDown()
+        if ($(".list-element:hidden").length == 0) {
+            $("#loadmore").fadeOut('slow')
         }
-    }
-    currentItems += 2;
-
-    // Load more button will be hidden after list fully loaded
-    if (currentItems >= elementList.length) {
-        event.target.style.display = 'none';
-    }
-})
+    });
+});
